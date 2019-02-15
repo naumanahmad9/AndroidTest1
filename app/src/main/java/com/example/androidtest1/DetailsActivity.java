@@ -29,10 +29,16 @@ public class DetailsActivity extends AppCompatActivity {
         String id_ = bundle.getString("id");
         String name_ = bundle.getString("name");
         String email_ = bundle.getString("email");
+        String age_ = bundle.getString("age");
+        String gender_ = bundle.getString("gender");
+        String course_ = bundle.getString("course");
 
         s_id.setText(id_);
         s_name.setText(name_);
         s_email.setText(email_);
+        s_age.setText(age_);
+        s_gender.setText(gender_);
+        s_course.setText(course_);
 
     }
 }
